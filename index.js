@@ -10,7 +10,7 @@ const app = express();
 
 app.use(cookieParser())
 app.use(cors({
-    origin: 'https://game-app-frontend-ukl6.vercel.app', // Change this to your front-end URL
+    origin: 'https://game-app-frontend-beii.vercel.app', // Change this to your front-end URL
     credentials: true // Allow credentials (cookies)
 }));
 app.use(express.json());
