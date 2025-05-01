@@ -5,7 +5,7 @@ import cookieParser from 'cookie-parser';
 import cors from 'cors'
 import userRoute from './routes/userRoute.js'
 import gameRoute from './routes/gameRoute.js'
-import adminRoutes from './routes/adminRoutes.js'
+
 
 
 const app = express();
@@ -27,7 +27,7 @@ app.use('/api/v1/gameusers' , userRoute);
 
 app.use('/api/v1/games' , gameRoute);
 
-app.use('/api/v1/admin' , adminRoutes);
+
 
 
 
